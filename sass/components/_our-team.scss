@@ -1,7 +1,7 @@
 .comand-container .list{ 
     display: flex;}
   
-  .comand_item{
+  .comand__item{
     background-color: var(--white);
     border-radius: 4px;
   
@@ -33,7 +33,7 @@
     line-height: 1.17;
     text-align: center;
   }
-  .comand_caption {
+  .comand__caption {
   
   margin-bottom: 10px;
   
@@ -50,7 +50,7 @@
     padding-bottom: 30px;
   }
   
-  .comand_subtitle {
+  .comand__subtitle {
   
     color: var(--additional-ctext);
     font-weight: 400;

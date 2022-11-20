@@ -9,11 +9,11 @@
     padding-bottom: 0;
   } 
   
-  .benefits_item:not(:last-child){
+  .benefits__item:not(:last-child){
     margin-right: 30px;
   }
   
-  .benefits_icon{
+  .benefits__icon{
     width: 270px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1);
@@ -26,7 +26,7 @@
   }
   
   
-  .benefits_title{
+  .benefits__title{
   
     margin-bottom: 10px;
   
@@ -38,7 +38,7 @@
     text-transform: uppercase;
   }
   
-  .benefits_text {
+  .benefits__text {
     color: var(--additional-ctext);
     line-height: 1.7;
   }
