@@ -1,6 +1,10 @@
 
 .site-nav{
-    display: flex;
+    display: none;
+
+    @media screen and (min-width: 768px){
+      display: flex; 
+    }
   } 
   
   .nav-link {
@@ -22,6 +26,8 @@
         border-radius: 2px;
         background-color: var(--accent-color);
         transition: color 250ms var(--cubic);
+
+      
         
         }
     
@@ -52,8 +58,13 @@
 // .AUTS-NAV
 
   .auts-nav {
-  display: flex;
-  margin-left: auto;
+  display: none;
+  
+
+  @media screen and (min-width: 768px){
+    display: flex; 
+    margin-left: auto;
+  }
   }
   
   .auts-nav-icon{
